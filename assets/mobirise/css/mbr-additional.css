@@ -685,7 +685,7 @@ a {
 .cid-sXT4XFc4Bf {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background: #fafafa;
+  background-image: url("../../../assets/images/zafirbg-1080x1080.jpg");
 }
 .cid-sXT4XFc4Bf .team-card {
   margin-bottom: 2rem;
@@ -1123,7 +1123,7 @@ a {
 }
 .cid-sXT676vWFr {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 .cid-sXT676vWFr ul {
@@ -1136,6 +1136,29 @@ a {
   margin-bottom: 1rem;
 }
 .cid-sXT676vWFr ul li::before {
+  position: absolute;
+  left: -1.6rem;
+  content: "\2022";
+  color: #6592e6;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 1.6rem;
+}
+.cid-sY4alcyGTD {
+  padding-top: 5rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-sY4alcyGTD ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 2.5rem;
+}
+.cid-sY4alcyGTD li {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.cid-sY4alcyGTD ul li::before {
   position: absolute;
   left: -1.6rem;
   content: "\2022";
@@ -1169,10 +1192,4 @@ a {
   .cid-sXT5EAwpml .card-wrapper {
     padding: 3rem 1rem;
   }
-}
-.cid-sXSZJp77PY {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #232323;
-  overflow: hidden;
 }
